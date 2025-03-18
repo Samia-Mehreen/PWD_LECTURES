@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+body{
+    background-color: rgb(238, 208, 183);
+    color: black;
+    border-style: solid;
+}
+
+    </style>
+</head>
+<body>
+<h1>Student Details Form</h1>
+<form action="post">
+<label for="username"><b> Enter Your Username:</b></label>
+<input type="text" id="username" name="username" placeholder="Enter your name">
+<br>
+<br>
+
+<label for="Email"><b> Enter Your Email:</b></label>
+<input type="text" id="Email" name="email" placeholder="name@gmail.com">
+<br>
+<br>
+
+<label for="Date"><b>Date:</b></label>
+<input type="datetime-local" id="Date">
+
+<br><br>
+<strong>Gender:</strong>
+<ul>
+<li>
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" >
+</li>
+<li>
+<label for="Female">Female</label>
+<input type="radio" id="male" name="gender" >
+</li>
+</ul>
+
+<strong>Department:</strong>
+<select name="Departments">
+<option value="SE">Software Engineering</option>
+<option value="CS">Computer Science</option>
+</select>
+
+<br><br>
+<label for="comment"><strong>Enter your comment:</strong></label><br>
+<textarea id="comment" name="comment" rows="4" cols="50"> </textarea><br>
+
+<input type="submit" value="Submit">
+
+  </form>
+</body>
+</html>
